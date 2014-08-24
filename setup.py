@@ -93,12 +93,12 @@ setup(
 
     zip_safe=True,
 
-    author="Barnaby Gale & Ed Kellett",
-    author_email="not.real.email@mark2.io",
+    author="Paul Buonopane (Zenexer); formerly Barnaby Gale and Ed Kellett",
+    author_email="paul+mark2@e2m.co",
     description="Minecraft server wrapper",
     license="MIT",
     keywords="mark2 minecraft server wrapper",
-    url="http://mark2.io/",
+    url="https://github.com/Zenexer/mark2",
 
     classifiers=[
         "Development Status :: 3 - Alpha",
@@ -118,9 +118,9 @@ setup(
 mark2 |buildstatus|
 ===================
 
-mark2 is a minecraft server wrapper, written in python and twisted. It aims to
+mark2 is a Minecraft server wrapper, written in Python and using Twisted. It aims to
 be *the* definitive wrapper, providing a rich feature-set and a powerful plugin
-interface. It has no requirement on craftbukkit.
+interface. It has no requirement on CraftBukkit.
 
 features
 --------
@@ -136,8 +136,7 @@ plugins
 -------
 
 * Powerful scheduling plugin, with a cron-like syntax. You can hook onto events
-  like ``@serverstopped`` to run a
-  cartograph, or run ``save`` on an interval
+  like ``@serverstopped`` to run a cartograph, or run ``save`` on an interval
 * Automatically restart the server when it crashes, runs out of memory, or
   stops accepting connections
 * Notifications via Prowl, Pushover, NotifyMyAndroid or email if something goes
@@ -149,7 +148,7 @@ plugins
 * Print a random message at an interval, e.g. '[SERVER] Lock your chests with
   /lock'
 * Respond to user commands, e.g. '<Notch> !teamspeak' could `msg Notch Join our
-  teamspeak server at xyz.com`
+  teamspeak server at example.com`
 
 .. |buildstatus| image:: https://travis-ci.org/mcdevs/mark2.png?branch=master
 '''

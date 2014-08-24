@@ -1,7 +1,7 @@
 # mark2 [![Build Status](https://travis-ci.org/mcdevs/mark2.png?branch=master)](https://travis-ci.org/mcdevs/mark2)
 
-mark2 is a minecraft server wrapper, written in python and twisted. It aims to be *the* definitive wrapper, providing a
-rich feature-set and a powerful plugin interface. It has no requirement on craftbukkit.
+mark2 is a minecraft server wrapper, written in Python and using Twisted. It aims to be *the* definitive wrapper,
+providing a rich feature-set and a powerful plugin interface. It has no requirement on CraftBukkit.
 
 ## features
 
@@ -21,7 +21,7 @@ rich feature-set and a powerful plugin interface. It has no requirement on craft
 * Read an RSS feed (such as a subreddit feed) and announce new entries in-game
 * Back up your map and server log when the server stops
 * Print a random message at an interval, e.g. '[SERVER] Lock your chests with /lock'
-* Respond to user commands, e.g. '<Notch> !teamspeak' could `msg Notch Join our teamspeak server at xyz.com`
+* Respond to user commands, e.g. '<Notch> !teamspeak' could `msg Notch Join our teamspeak server at example.com`
 
 see INSTALL.md for requirements and installation instructions
 
